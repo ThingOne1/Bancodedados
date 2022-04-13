@@ -90,6 +90,12 @@ hr {
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
+  border-Style: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-width: 5px;
+  width: 4%;
+}
 }
 
 hr:not([size]) {
