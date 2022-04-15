@@ -90,16 +90,8 @@ form-control {
   margin: auto auto auto auto;
 }
 hr {
-  margin: 1rem 0;
-  color: inherit;
-  background-color: currentColor;
-  border: 0;
-  opacity: 0.25;
-  border-Style: none;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-width: 5px;
-  width: 4%;
+  margin: 0;
+
 }
 }
 
@@ -161,6 +153,9 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+#Pic-navbar{
+  width: 2%;
 }
 
 abbr[title],
@@ -605,7 +600,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -1187,7 +1182,7 @@ progress {
 
   .col-md-7 {
     flex: 0 0 auto;
-    width: 58.33333333%;
+    width: 66.33333333%;
   }
 
   .col-md-8 {
@@ -2725,6 +2720,14 @@ textarea.form-control-lg {
   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
 }
 
+#Cashpart{
+  margin-top: 1rem;
+  padding-right: 50%;
+}
+#Titlemoney{
+  margin-top: 5rem
+}
+
 .input-group {
   position: relative;
   display: flex;
@@ -4046,6 +4049,8 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  font-family: 'Castoro', serif;
+
 }
 .navbar-nav {
   display: flex;
@@ -21703,7 +21708,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 98%;
   height: auto;
 }
 
