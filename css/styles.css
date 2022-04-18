@@ -502,6 +502,12 @@ progress {
   .display-1 {
     font-size: 5rem;
   }
+
+#lordiconsun {
+  flex: auto;
+  position: absolute;
+  margin-left: 70%;
+
 }
 
 .display-2 {
