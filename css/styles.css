@@ -200,6 +200,11 @@ p {
   height: auto;
 }
 }
+.Mascote{
+  position: absolute;
+  padding-left: 45%;
+  padding-top: 10%;
+}
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
