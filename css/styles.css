@@ -30308,6 +30308,7 @@ body {
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
+  margin-top: 1.5rem;
 }
 .marketing h2 {
   font-weight: 400;
@@ -30317,6 +30318,17 @@ body {
   margin-left: .75rem;
 }
 
+@media (max-width: 1028px){
+  #Marketing1 {
+    margin: 50% 50% 50% 50%;
+  }
+}
+@media (min-width: 1028px){
+  #Marketing1 {
+    margin-top: 30%;
+    margin-bottom: 15%;
+  }
+}
 
 /* Featurettes
 ------------------------- */
@@ -30352,5 +30364,17 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+@media (max-width: 1028px){
+  #Preco{
+    margin: 50% 50% 50% 50%;
+}
+}
+@media (min-width: 1028px){
+  #Preco{
+    margin-top: 8%;
+    margin-left: 8%;
+
   }
 }

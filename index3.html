@@ -20,7 +20,7 @@
   <body>
 <!-- preco-->
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
         <a class="navbar-brand" href="index.html">Sunny Search</a>
         <img id="Pic-navbar" src="sun (1).png" alt="Generic placeholder image">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,26 +35,41 @@
               <a class="nav-link" href="https://twitter.com/SunnySearch">Social</a>
             </li>
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
         </div>
       </nav>
     </header>
 
-    <main role="main">
+    <main id="Preco" role="main">
+
       <h4 id="Titlemoney">Quanto por mes voce paga na sua conta de luz?</h4>
       <div id="Cashpart"class="input-group mb-3">
         <span class="input-group-text">$</span>
-        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+        <input id="Money123" type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="Coloque aqui o valor"><button onclick="myFunction()" type="submit" class="btn btn-primary">Submit</button>
+
+        <script type="text/javascript">
+        function myFunction() {
+          const x = document.getElementById('Money123');
+          var Dinheiro = x.value;
+          var quantovaiser1 = 32.604;
+          var quantovaiser2 = 45.6456;
+          var money1 = Dinheiro*quantovaiser1;
+          var money2 = Dinheiro*quantovaiser2;
+          var Total = ("O custo total sera entre. R$")+ money1 + (" e R$") + money2;
+          document.getElementById('Total').innerHTML = Total;
+        }
+        </script>
       </div>
+        <p id="Total"></p>
+
 
 
       <!-- FOOTER -->
+      <br>
+      <br>
+      <br>
       <footer class="container">
         <p class="float-right"><a href="index.html">Voltar</a></p>
-        <p>&copy; 2022 Company, Inc. <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
+        <p>&copy; 2022 Company, Inc. </p>
       </footer>
     </main>
   </body>

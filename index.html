@@ -20,8 +20,8 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html">Sunny Search</a>
+      <nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark">
+        <a class="navbar-brand" href="index.html"> Sunny Search</a>
         <img id="Pic-navbar" src="sun (1).png" alt="Generic placeholder image">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,17 +35,15 @@
               <a class="nav-link" href="https://twitter.com/SunnySearch">Social</a>
             </li>
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
-        </div>
+
       </nav>
     </header>
 
     <main role="main">
-
-
+      <script>
+      var name = prompt("Hello, and Welcome to this Website! I apologize but it is still under contruction, What is your name? ");
+      var cliente = name + ", sua procura acabou!"
+      </script>
       <div id="myCarousel" class="carousel slide" data-ride="carousel" data-bs-pause="houver">
         <div class="carousel-inner">
           <img class="Mascote" src="SunnySearching.png" alt="Mascote">
@@ -53,7 +51,11 @@
             <img class="first-slide" src="blue.png" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Sua procura acabou.</h1>
+                <h1>
+                <script type="text/javascript">
+                  document.write(cliente);
+                </script>
+                </h1>
                 <p>Procuramos por voce!</p>
                 <p><a class="btn btn-lg btn-primary" href="index2.html" role="button">Registre-se</a></p>
               </div>
@@ -102,7 +104,7 @@
             <img class="rounded-circle" src="search-tool-flat-rounded-icon-vector.jpg" alt="Generic placeholder image" width="140" height="140">
             <h2>Procuramos</h2>
             <p>Procuramos aqui as empresas que nois confiamos que esteja perto de voce!</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Mais detalhes &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="index5.html" role="button">Mais detalhes &raquo;</a></p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="hand-shake.png" alt="Generic placeholder image" width="140" height="140">
@@ -122,6 +124,7 @@
         <p class="float-right">
         <p>&copy; 2022 Company, Inc. <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
       </footer>
+
     </main>
   </body>
 </html>
